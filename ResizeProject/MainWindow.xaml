@@ -165,7 +165,7 @@
             <Grid.Style>
                 <Style TargetType="Grid">
                     <Setter Property="Width" Value="950" />
-                    <Setter Property="Visibility" Value="Collapsed" />
+                    <Setter Property="Visibility" Value="Visible" />
                     <Style.Triggers>
                         <DataTrigger Binding="{Binding IsShowDetail}" Value="true">
                             <Setter Property="Visibility" Value="Visible" />
@@ -240,15 +240,15 @@
                                 <DatePicker />
                             </TextBlock>
                             <TextBlock>
-                                <Run BaselineAlignment="Center" Text="回廠數量：" />
+                                <Run BaselineAlignment="Center" Text="Item6：" />
                                 <TextBox Width="200" d:Text="10" />
                             </TextBlock>
                             <TextBlock>
-                                <Run BaselineAlignment="Center" Text="量測數量：" />
+                                <Run BaselineAlignment="Center" Text="Item7：" />
                                 <TextBox Width="200" d:Text="5" />
                             </TextBlock>
                             <TextBlock>
-                                <Run BaselineAlignment="Center" Text="　　備註：" />
+                                <Run BaselineAlignment="Center" Text="　　Item8：" />
                                 <TextBox
                                     Width="200"
                                     Height="100"
@@ -266,43 +266,43 @@
                     <Grid Grid.Row="1" Grid.Column="1">
                         <StackPanel Margin="5">
                             <TextBlock>
-                                <Run BaselineAlignment="Center" Text="　　RFQ：" />
+                                <Run BaselineAlignment="Center" Text="　　Item9：" />
                                 <TextBox Width="200" d:Text="12345" />
                             </TextBlock>
                             <TextBlock>
-                                <Run BaselineAlignment="Center" Text="專案號碼：" />
+                                <Run BaselineAlignment="Center" Text="Item10：" />
                                 <TextBox Width="200" d:Text="98765123" />
                             </TextBlock>
                             <TextBlock>
-                                <Run BaselineAlignment="Center" Text="　　機台：" />
+                                <Run BaselineAlignment="Center" Text="　　Item11：" />
                                 <ComboBox Width="200" />
                             </TextBlock>
                             <TextBlock>
-                                <Run BaselineAlignment="Center" Text="　執行人：" />
+                                <Run BaselineAlignment="Center" Text="　Item12：" />
                                 <ComboBox Width="200" />
                             </TextBlock>
                             <TextBlock>
-                                <Run BaselineAlignment="Center" Text="　　工時(Min)：" />
+                                <Run BaselineAlignment="Center" Text="　　Item13：" />
                                 <TextBox Width="200" d:Text="200" />
                             </TextBlock>
                             <TextBlock>
-                                <Run BaselineAlignment="Center" Text="　　開始：" />
+                                <Run BaselineAlignment="Center" Text="　　Item14：" />
                                 <DatePicker />
                                 <ComboBox />
                                 <ComboBox />
                             </TextBlock>
                             <TextBlock>
-                                <Run BaselineAlignment="Center" Text="　　完成：" />
+                                <Run BaselineAlignment="Center" Text="　　Item15：" />
                                 <DatePicker />
                                 <ComboBox />
                                 <ComboBox />
                             </TextBlock>
                             <TextBlock>
-                                <Run BaselineAlignment="Center" Text="　　狀態：" />
+                                <Run BaselineAlignment="Center" Text="　　Item16：" />
                                 <ComboBox Width="200" />
                             </TextBlock>
                             <TextBlock>
-                                <Run BaselineAlignment="Center" Text="結案備註：" />
+                                <Run BaselineAlignment="Center" Text="Item17：" />
                                 <ComboBox Width="200" />
                             </TextBlock>
 
