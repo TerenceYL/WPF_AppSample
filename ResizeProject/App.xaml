@@ -1,0 +1,12 @@
+﻿<Application
+    x:Class="ResizeProject.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:ResizeProject"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <FontFamily x:Key="jfopen">
+            ./Fonts/#jf open 粉圓 2.0
+        </FontFamily>
+    </Application.Resources>
+</Application>
